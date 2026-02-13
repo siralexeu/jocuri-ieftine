@@ -9,7 +9,9 @@ import ggdealsLogo from "@/assets/stores/ggdeals.png";
 import rgamedealsLogo from "@/assets/stores/rgamedeals.png";
 import loadedLogo from "@/assets/stores/loaded.png";
 import enebaLogo from "@/assets/stores/eneba.png";
+import g2aLogo from "@/assets/stores/g2a.png";
 import gamivoLogo from "@/assets/stores/gamivo.png";
+import yuplayLogo from "@/assets/stores/yuplay.png"
 import k4gLogo from "@/assets/stores/k4g.png";
 import difmarkLogo from "@/assets/stores/difmark.png";
 import gamesealLogo from "@/assets/stores/gameseal.png";
@@ -83,6 +85,13 @@ const stores: StoreLink[] = [
     logo: loadedLogo,
   },
   {
+    name: "G2A",
+    url: "https://www.g2a.com",
+    description: "Global digital marketplace",
+    color: "from-fuchsia-500 to-fuchsia-700",
+    logo: g2aLogo,
+  },
+  {
     name: "Eneba",
     url: "https://www.eneba.com/",
     description: "Digital entertainment marketplace",
@@ -95,6 +104,13 @@ const stores: StoreLink[] = [
     description: "Buy & sell game keys",
     color: "from-teal-500 to-teal-700",
     logo: gamivoLogo,
+  },
+  {
+    name: "YUPLAY",
+    url: "https://www.yuplay.com/",
+    description: "Game deals & price comparison",
+    color: "from-cyan-500 to-cyan-700",
+    logo: ggdealsLogo,
   },
   {
     name: "K4G",
