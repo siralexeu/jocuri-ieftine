@@ -103,7 +103,7 @@ const stores: StoreLink[] = [
     url: "https://www.yuplay.com/",
     description: "Legit",
     color: "from-cyan-500 to-cyan-700",
-    logo: ggdealsLogo,
+    logo: yuplayLogo,
   },
   {
     name: "K4G",
