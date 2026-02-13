@@ -105,7 +105,7 @@ const LinksPage = () => {
             <img src={avatarImg} alt="Key Games" className="h-full w-full object-cover" />
           </div>
           <h1 className="font-display text-2xl font-black tracking-wider text-foreground">
-            KEY GAMES
+            Jocuri ieftine
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
             Find the best deals on game keys 🎮
