@@ -170,9 +170,7 @@ const LinkButton = ({ store }: { store: StoreLink }) => (
     />
     <div className="relative flex items-center justify-between rounded-xl border border-border bg-secondary px-6 py-4 transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-[var(--glow-primary)]">
       <div className="flex items-center gap-4">
-        <div className={`flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br ${store.color} overflow-hidden`}>
-           <img src={store.logo} alt={store.name} className="h-6 w-6 object-contain" />
-         </div>
+        <img src={store.logo} alt={store.name} className="h-8 w-8 object-contain" />
         <div>
           <h3 className="font-display text-sm font-bold tracking-wide text-foreground">
             {store.name}
