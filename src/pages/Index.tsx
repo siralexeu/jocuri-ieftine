@@ -18,6 +18,8 @@ import gamesealLogo from "@/assets/stores/gameseal.png";
 import hrkgameLogo from "@/assets/stores/hrkgame.png";
 import cjscdkeysLogo from "@/assets/stores/cjs-cdkeys.png";
 import wyrelLogo from "@/assets/stores/wyrel.png";
+import g2gLogo from "@/assets/stores/g2g.png";
+import etailmarketLogo from "@/assets/stores/etailmarket.png";
 
 interface StoreLink {
   name: string;
@@ -109,6 +111,13 @@ const stores: StoreLink[] = [
     logo: yuplayLogo,
   },
   {
+    name: "G2G",
+    url: "https://www.g2g.com/",
+    description: "cu risk",
+    color: "from-rose-500 to-rose-600",
+    logo: g2gLogo,
+  },
+  {
     name: "K4G",
     url: "https://k4g.com/",
     description: "As cumpara",
@@ -149,6 +158,13 @@ const stores: StoreLink[] = [
     description: "Game keys marketplace",
     color: "from-blue-500 to-blue-600",
     logo: wyrelLogo,
+  },
+  {
+    name: "Etail.Market",
+    url: "https://etail.market/",
+    description: "cu risk",
+    color: "from-rose-500 to-rose-600",
+    logo: etailmarketLogo,
   },
   {
     name: "r/GameDeals",
