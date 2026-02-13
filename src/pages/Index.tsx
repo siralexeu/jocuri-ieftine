@@ -160,12 +160,27 @@ const stores: StoreLink[] = [
     logo: wyrelLogo,
   },
   {
+    name: "ggsel",
+    url: "https://ggsel.net/",
+    description: "Marketplace of digital goods: games, keys, gifts, software ...",
+    color: "from-rose-500 to-rose-600",
+    logo: ggselLogo,
+  },
+  {
     name: "Etail.Market",
     url: "https://etail.market/",
     description: "cu risk",
     color: "from-rose-500 to-rose-600",
     logo: etailmarketLogo,
   },
+  {
+    name: "DenuvoGames.Store",
+    url: "  https://denuvogames.store//",
+    description: "Russia",
+    color: "from-red-500 to-red-600",
+    logo: denuvogamesLogo,
+  },
+
   {
     name: "r/GameDeals",
     url: "https://rgamedeals.net/",
