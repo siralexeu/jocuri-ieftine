@@ -163,10 +163,8 @@ const LinkButton = ({ store }: { store: StoreLink }) => (
     rel="noopener noreferrer"
     className="group relative block w-full"
   >
-    <div className="absolute -inset-0.5 rounded-xl bg-gradient-to-r opacity-0 blur transition-all duration-300 group-hover:opacity-60"
-      style={{
-        backgroundImage: `linear-gradient(to right, var(--tw-gradient-stops))`,
-      }}
+    <div
+      className={`absolute -inset-0.5 rounded-xl bg-gradient-to-r ${store.color} opacity-0 blur transition-all duration-300 group-hover:opacity-60`}
     />
     <div className="relative flex items-center justify-between rounded-xl border border-border bg-secondary px-6 py-4 transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-[var(--glow-primary)]">
       <div className="flex items-center gap-4">
