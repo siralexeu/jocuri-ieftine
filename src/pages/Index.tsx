@@ -20,6 +20,7 @@ import cjscdkeysLogo from "@/assets/stores/cjs-cdkeys.png";
 import wyrelLogo from "@/assets/stores/wyrel.png";
 import g2gLogo from "@/assets/stores/g2g.png";
 import etailmarketLogo from "@/assets/stores/etailmarket.png";
+add ggsel si denuvo
 
 interface StoreLink {
   name: string;
