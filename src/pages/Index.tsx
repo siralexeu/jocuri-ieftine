@@ -1,4 +1,4 @@
-import { ExternalLink, Gamepad2 } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import avatarImg from "@/assets/avatar.png";
 
 interface StoreLink {
@@ -62,8 +62,8 @@ const LinkButton = ({ store }: { store: StoreLink }) => (
     <div className="relative flex items-center justify-between rounded-xl border border-border bg-secondary px-6 py-4 transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-[var(--glow-primary)]">
       <div className="flex items-center gap-4">
         <div className={`flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br ${store.color}`}>
-          <Gamepad2 className="h-5 w-5 text-white" />
-        </div>
+           <span className="text-sm font-bold text-white">{store.name.charAt(0)}</span>
+         </div>
         <div>
           <h3 className="font-display text-sm font-bold tracking-wide text-foreground">
             {store.name}
