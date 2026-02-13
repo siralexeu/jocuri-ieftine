@@ -1,11 +1,21 @@
 import { ExternalLink } from "lucide-react";
 import avatarImg from "@/assets/avatar.png";
-import g2aLogo from "@/assets/stores/g2a.png";
-import enebaLogo from "@/assets/stores/eneba.png";
-import cdkeysLogo from "@/assets/stores/cdkeys.png";
-import kinguinLogo from "@/assets/stores/kinguin.png";
+import greenmangamingLogo from "@/assets/stores/greenmangaming.png";
 import instantGamingLogo from "@/assets/stores/instant-gaming.png";
 import humbleLogo from "@/assets/stores/humble.png";
+import fanaticalLogo from "@/assets/stores/fanatical.png";
+import isthereanydealLogo from "@/assets/stores/isthereanydeal.png";
+import ggdealsLogo from "@/assets/stores/ggdeals.png";
+import rgamedealsLogo from "@/assets/stores/rgamedeals.png";
+import loadedLogo from "@/assets/stores/loaded.png";
+import enebaLogo from "@/assets/stores/eneba.png";
+import gamivoLogo from "@/assets/stores/gamivo.png";
+import k4gLogo from "@/assets/stores/k4g.png";
+import difmarkLogo from "@/assets/stores/difmark.png";
+import gamesealLogo from "@/assets/stores/gameseal.png";
+import hrkgameLogo from "@/assets/stores/hrkgame.png";
+import cjscdkeysLogo from "@/assets/stores/cjs-cdkeys.png";
+import wyrelLogo from "@/assets/stores/wyrel.png";
 
 interface StoreLink {
   name: string;
@@ -17,46 +27,116 @@ interface StoreLink {
 
 const stores: StoreLink[] = [
   {
-    name: "G2A",
-    url: "https://www.g2a.com",
-    description: "Global digital marketplace",
-    color: "from-orange-500 to-orange-700",
-    logo: g2aLogo,
-  },
-  {
-    name: "Eneba",
-    url: "https://www.eneba.com",
-    description: "Digital entertainment marketplace",
-    color: "from-violet-500 to-violet-700",
-    logo: enebaLogo,
-  },
-  {
-    name: "CDKeys",
-    url: "https://www.cdkeys.com",
-    description: "Cheap game keys & codes",
-    color: "from-blue-500 to-blue-700",
-    logo: cdkeysLogo,
-  },
-  {
-    name: "Kinguin",
-    url: "https://www.kinguin.net",
-    description: "Game keys at low prices",
-    color: "from-red-500 to-red-700",
-    logo: kinguinLogo,
+    name: "Green Man Gaming",
+    url: "https://www.greenmangaming.com/",
+    description: "Official game keys & great deals",
+    color: "from-green-500 to-green-700",
+    logo: greenmangamingLogo,
   },
   {
     name: "Instant Gaming",
-    url: "https://www.instant-gaming.com",
+    url: "https://www.instant-gaming.com/",
     description: "Up to 70% off on PC games",
     color: "from-emerald-500 to-emerald-700",
     logo: instantGamingLogo,
   },
   {
     name: "Humble Bundle",
-    url: "https://www.humblebundle.com",
+    url: "https://www.humblebundle.com/",
     description: "Games, bundles & charity",
     color: "from-pink-500 to-pink-700",
     logo: humbleLogo,
+  },
+  {
+    name: "Fanatical",
+    url: "https://www.fanatical.com/",
+    description: "PC game keys & bundles",
+    color: "from-gray-600 to-gray-800",
+    logo: fanaticalLogo,
+  },
+  {
+    name: "IsThereAnyDeal",
+    url: "https://isthereanydeal.com/",
+    description: "Compare prices across stores",
+    color: "from-blue-500 to-blue-700",
+    logo: isthereanydealLogo,
+  },
+  {
+    name: "GG.deals",
+    url: "https://gg.deals/",
+    description: "Game deals & price comparison",
+    color: "from-cyan-500 to-cyan-700",
+    logo: ggdealsLogo,
+  },
+  {
+    name: "r/GameDeals",
+    url: "https://rgamedeals.net/",
+    description: "Community-driven game deals",
+    color: "from-orange-500 to-orange-700",
+    logo: rgamedealsLogo,
+  },
+  {
+    name: "Loaded",
+    url: "https://www.loaded.com/",
+    description: "Digital game marketplace",
+    color: "from-yellow-500 to-yellow-700",
+    logo: loadedLogo,
+  },
+  {
+    name: "Eneba",
+    url: "https://www.eneba.com/",
+    description: "Digital entertainment marketplace",
+    color: "from-violet-500 to-violet-700",
+    logo: enebaLogo,
+  },
+  {
+    name: "Gamivo",
+    url: "https://www.gamivo.com/",
+    description: "Buy & sell game keys",
+    color: "from-teal-500 to-teal-700",
+    logo: gamivoLogo,
+  },
+  {
+    name: "K4G",
+    url: "https://k4g.com/",
+    description: "Game keys at great prices",
+    color: "from-indigo-500 to-indigo-700",
+    logo: k4gLogo,
+  },
+  {
+    name: "Difmark",
+    url: "https://difmark.com/",
+    description: "Digital game key marketplace",
+    color: "from-sky-500 to-sky-700",
+    logo: difmarkLogo,
+  },
+  {
+    name: "GameSeal",
+    url: "https://gameseal.com/",
+    description: "Sealed deals on game keys",
+    color: "from-amber-500 to-amber-700",
+    logo: gamesealLogo,
+  },
+  {
+    name: "HRK Game",
+    url: "https://www.hrkgame.com/",
+    description: "Game keys & rewards",
+    color: "from-rose-500 to-rose-700",
+    logo: hrkgameLogo,
+  },
+  {
+    name: "CJS CD Keys",
+    url: "https://www.cjs-cdkeys.com/",
+    description: "Cheap CD keys & game codes",
+    color: "from-lime-500 to-lime-700",
+    logo: cjscdkeysLogo,
+  },
+  {
+    name: "Wyrel",
+    url: "https://wyrel.com/",
+    description: "Game keys marketplace",
+    color: "from-fuchsia-500 to-fuchsia-700",
+    logo: wyrelLogo,
   },
 ];
 
