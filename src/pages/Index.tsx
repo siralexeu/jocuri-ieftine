@@ -1,11 +1,18 @@
 import { ExternalLink } from "lucide-react";
 import avatarImg from "@/assets/avatar.png";
+import g2aLogo from "@/assets/stores/g2a.png";
+import enebaLogo from "@/assets/stores/eneba.png";
+import cdkeysLogo from "@/assets/stores/cdkeys.png";
+import kinguinLogo from "@/assets/stores/kinguin.png";
+import instantGamingLogo from "@/assets/stores/instant-gaming.png";
+import humbleLogo from "@/assets/stores/humble.png";
 
 interface StoreLink {
   name: string;
   url: string;
   description: string;
   color: string;
+  logo: string;
 }
 
 const stores: StoreLink[] = [
@@ -14,36 +21,42 @@ const stores: StoreLink[] = [
     url: "https://www.g2a.com",
     description: "Global digital marketplace",
     color: "from-orange-500 to-orange-700",
+    logo: g2aLogo,
   },
   {
     name: "Eneba",
     url: "https://www.eneba.com",
     description: "Digital entertainment marketplace",
     color: "from-violet-500 to-violet-700",
+    logo: enebaLogo,
   },
   {
     name: "CDKeys",
     url: "https://www.cdkeys.com",
     description: "Cheap game keys & codes",
     color: "from-blue-500 to-blue-700",
+    logo: cdkeysLogo,
   },
   {
     name: "Kinguin",
     url: "https://www.kinguin.net",
     description: "Game keys at low prices",
     color: "from-red-500 to-red-700",
+    logo: kinguinLogo,
   },
   {
     name: "Instant Gaming",
     url: "https://www.instant-gaming.com",
     description: "Up to 70% off on PC games",
     color: "from-emerald-500 to-emerald-700",
+    logo: instantGamingLogo,
   },
   {
     name: "Humble Bundle",
     url: "https://www.humblebundle.com",
     description: "Games, bundles & charity",
     color: "from-pink-500 to-pink-700",
+    logo: humbleLogo,
   },
 ];
 
@@ -61,8 +74,8 @@ const LinkButton = ({ store }: { store: StoreLink }) => (
     />
     <div className="relative flex items-center justify-between rounded-xl border border-border bg-secondary px-6 py-4 transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-[var(--glow-primary)]">
       <div className="flex items-center gap-4">
-        <div className={`flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br ${store.color}`}>
-           <span className="text-sm font-bold text-white">{store.name.charAt(0)}</span>
+        <div className={`flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br ${store.color} overflow-hidden`}>
+           <img src={store.logo} alt={store.name} className="h-6 w-6 object-contain" />
          </div>
         <div>
           <h3 className="font-display text-sm font-bold tracking-wide text-foreground">
