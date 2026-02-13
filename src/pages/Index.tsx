@@ -33,49 +33,51 @@ const stores: StoreLink[] = [
     name: "Green Man Gaming",
     url: "https://www.greenmangaming.com/",
     description: "Official game keys & great deals",
-    color: "from-green-500 to-green-700",
+    color: "from-emerald-500 to-emerald-600",
+    borderColor: "border-green-500/40", 
     logo: greenmangamingLogo,
   },
   {
     name: "Instant Gaming",
     url: "https://www.instant-gaming.com/",
     description: "Official game keys & great deals",
-    color: "from-green-500 to-green-600",
+    color: "from-emerald-500 to-emerald-600",
+    borderColor: "border-green-500/40", 
     logo: instantGamingLogo,
   },
   {
     name: "Humble Bundle",
     url: "https://www.humblebundle.com/",
     description: "Official Games, bundles & charity",
-    color: "from-pink-500 to-pink-700",
+    color: "from-green-500 to-green-600",
     logo: humbleLogo,
   },
   {
     name: "Fanatical",
     url: "https://www.fanatical.com/",
     description: "Official game keys & bundles",
-    color: "from-gray-600 to-gray-800",
+    color: "from-green-500 to-green-600",
     logo: fanaticalLogo,
   },
   {
     name: "IsThereAnyDeal",
     url: "https://isthereanydeal.com/",
-    description: "Compare prices across stores",
+    description: "Price comparison official stores",
     color: "from-blue-500 to-blue-700",
     logo: isthereanydealLogo,
   },
   {
     name: "GG.deals",
     url: "https://gg.deals/",
-    description: "Game deals & price comparison",
+    description: "Price comparison",
     color: "from-cyan-500 to-cyan-700",
     logo: ggdealsLogo,
   },
   {
     name: "Loaded",
     url: "https://www.loaded.com/",
-    description: "fostul CDKeys.com",
-    color: "from-green-500 to-green-600",
+    description: "Fostul CDKeys.com",
+    color: "from-emerald-500 to-emerald-600",
     logo: loadedLogo,
   },
   {
@@ -103,7 +105,7 @@ const stores: StoreLink[] = [
     name: "YUPLAY",
     url: "https://www.yuplay.com/",
     description: "Legit",
-    color: "from-green-500 to-green-600",
+    color: "from-emerald-500 to-emerald-600",
     logo: yuplayLogo,
   },
   {
@@ -137,7 +139,7 @@ const stores: StoreLink[] = [
   {
     name: "CJS CD Keys",
     url: "https://www.cjs-cdkeys.com/",
-    description: "Cheap CD keys & game codes",
+    description: "UK",
     color: "from-lime-500 to-lime-700",
     logo: cjscdkeysLogo,
   },
@@ -167,7 +169,7 @@ const LinkButton = ({ store }: { store: StoreLink }) => (
     <div
       className={`absolute -inset-0.5 rounded-xl bg-gradient-to-r ${store.color} opacity-0 blur transition-all duration-300 group-hover:opacity-60`}
     />
-    <div className="relative flex items-center justify-between rounded-xl border border-border bg-secondary px-6 py-4 transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-[var(--glow-primary)]">
+    <div className={`relative flex items-center justify-between rounded-xl border border-border bg-secondary px-6 py-4 transition-all duration-300 group-hover:${store.borderColor} group-hover:shadow-[var(--glow-primary)]`}>
       <div className="flex items-center gap-4">
         <img src={store.logo} alt={store.name} className="h-8 w-8 object-contain" />
         <div>
