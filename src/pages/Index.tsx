@@ -22,6 +22,7 @@ import g2gLogo from "@/assets/stores/g2g.png";
 import etailmarketLogo from "@/assets/stores/etailmarket.png";
 import ggselLogo from "@/assets/stores/ggsel.png";
 import denuvogamesLogo from "@/assets/stores/denuvogames.png";
+import allkeyshopLogo from "@/assets/stores/allkeyshop.png";
 
 interface StoreLink {
   name: string;
@@ -36,7 +37,7 @@ const stores: StoreLink[] = [
   {
     name: "Green Man Gaming",
     url: "https://www.greenmangaming.com/",
-    description: "Official game keys & great deals",
+    description: "Official game keys",
     color: "from-emerald-500 to-emerald-600",
     borderColor: "border-emerald-500/40", 
     logo: greenmangamingLogo,
@@ -44,7 +45,7 @@ const stores: StoreLink[] = [
   {
     name: "Instant Gaming",
     url: "https://www.instant-gaming.com/",
-    description: "Official game keys & great deals",
+    description: "Official game keys",
     color: "from-emerald-500 to-emerald-600",
     borderColor: "border-emerald-500/40", 
     logo: instantGamingLogo,
@@ -52,7 +53,7 @@ const stores: StoreLink[] = [
   {
     name: "Humble Bundle",
     url: "https://www.humblebundle.com/",
-    description: "Official Games, bundles & charity",
+    description: "Official games & bundles",
     color: "from-green-500 to-green-600",
     borderColor: "border-green-500/40",
     logo: humbleLogo,
@@ -69,7 +70,7 @@ const stores: StoreLink[] = [
     name: "IsThereAnyDeal",
     url: "https://isthereanydeal.com/",
     description: "Price comparison official stores",
-    color: "from-blue-500 to-blue-700",
+    color: "from-blue-500 to-blue-600",
     borderColor: "border-blue-500/40",
     logo: isthereanydealLogo,
   },
@@ -77,14 +78,23 @@ const stores: StoreLink[] = [
     name: "GG.deals",
     url: "https://gg.deals/",
     description: "Price comparison",
-    color: "from-cyan-500 to-cyan-700",
-    borderColor: "border-cyan-500/40",
+    color: "from-blue-500 to-blue-600",
+    borderColor: "border-blue-500/40",
     logo: ggdealsLogo,
   },
   {
+    name: "AllKeyShop",
+    url: "https://www.allkeyshop.com/",
+    description: "Price comparison",
+    color: "from-blue-500 to-blue-600",
+    borderColor: "border-blue-500/40",
+    logo: allkeyshopLogo,
+  },
+
+  {
     name: "Loaded",
     url: "https://www.loaded.com/",
-    description: "Fostul CDKeys.com",
+    description: "ex CDKeys.com",
     color: "from-emerald-500 to-emerald-600",
     borderColor: "border-emerald-500/40",
     logo: loadedLogo,
@@ -100,7 +110,7 @@ const stores: StoreLink[] = [
   {
     name: "Eneba",
     url: "https://www.eneba.com/",
-    description: "Taxe 1 euro la depunere",
+    description: "Service fee 1 EURO",
     color: "from-green-500 to-green-600",
     borderColor: "border-green-500/40",
     logo: enebaLogo,
@@ -124,7 +134,7 @@ const stores: StoreLink[] = [
   {
     name: "G2G",
     url: "https://www.g2g.com/",
-    description: "cu risk",
+    description: "Risk",
     color: "from-rose-500 to-rose-600",
     borderColor: "border-rose-500/40",
     logo: g2gLogo,
@@ -132,7 +142,7 @@ const stores: StoreLink[] = [
   {
     name: "K4G",
     url: "https://k4g.com/",
-    description: "As cumpara",
+    description: "Good",
     color: "from-blue-500 to-blue-600",
     borderColor: "border-blue-500/40",
     logo: k4gLogo,
@@ -140,7 +150,7 @@ const stores: StoreLink[] = [
   {
     name: "Difmark",
     url: "https://difmark.com/",
-    description: "Preturi mari",
+    description: "Big prices",
     color: "from-blue-500 to-blue-600",
     borderColor: "border-blue-500/40",
     logo: difmarkLogo,
@@ -180,7 +190,7 @@ const stores: StoreLink[] = [
   {
     name: "ggsel",
     url: "https://ggsel.net/",
-    description: "Marketplace of digital goods: games, keys, gifts, software ...",
+    description: "Not only games",
     color: "from-rose-500 to-rose-600",
     borderColor: "border-rose-500/40",
     logo: ggselLogo,
@@ -188,7 +198,7 @@ const stores: StoreLink[] = [
   {
     name: "Etail.Market",
     url: "https://etail.market/",
-    description: "cu risk",
+    description: "Risk",
     color: "from-rose-500 to-rose-600",
     borderColor: "border-rose-500/40",
     logo: etailmarketLogo,
@@ -196,7 +206,7 @@ const stores: StoreLink[] = [
   {
     name: "DenuvoGames.Store",
     url: "https://denuvogames.store/",
-    description: "Russia",
+    description: "Russian site",
     color: "from-red-500 to-red-600",
     borderColor: "border-red-500/40",
     logo: denuvogamesLogo,
@@ -287,7 +297,7 @@ const LinksPage = () => {
             Jocuri ieftine
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Find the best deals on game keys 🎮
+            Steam CD Keys and PC Game Keys
           </p>
         </div>
 
