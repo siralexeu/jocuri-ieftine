@@ -38,7 +38,7 @@ const stores: StoreLink[] = [
   {
     name: "Instant Gaming",
     url: "https://www.instant-gaming.com/",
-    description: "Official game keys & great deals, TLOU Part II Remastered",
+    description: "Official game keys & great deals",
     color: "from-emerald-500 to-emerald-700",
     logo: instantGamingLogo,
   },
@@ -87,7 +87,7 @@ const stores: StoreLink[] = [
   {
     name: "Eneba",
     url: "https://www.eneba.com/",
-    description: "Taxe 1 euro la depunere, DBD dlcs, F1, RE7, RE4R",
+    description: "Taxe 1 euro la depunere",
     color: "from-violet-500 to-violet-700",
     logo: enebaLogo,
   },
@@ -101,7 +101,7 @@ const stores: StoreLink[] = [
   {
     name: "YUPLAY",
     url: "https://www.yuplay.com/",
-    description: "am cumparat RE2R, RE3R",
+    description: "Legit",
     color: "from-cyan-500 to-cyan-700",
     logo: ggdealsLogo,
   },
