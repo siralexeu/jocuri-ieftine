@@ -24,6 +24,7 @@ interface StoreLink {
   url: string;
   description: string;
   color: string;
+  borderColor: string;
   logo: string;
 }
 
