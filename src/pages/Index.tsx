@@ -87,7 +87,7 @@ const stores: StoreLink[] = [
   {
     name: "Eneba",
     url: "https://www.eneba.com/",
-    description: "Taxe la depunere",
+    description: "Taxe 1 euro la depunere, am cumparat DBD dlcs, F1, RE7, RE4R",
     color: "from-violet-500 to-violet-700",
     logo: enebaLogo,
   },
@@ -101,7 +101,7 @@ const stores: StoreLink[] = [
   {
     name: "YUPLAY",
     url: "https://www.yuplay.com/",
-    description: "legit",
+    description: "am cumparat RE2R, RE3R",
     color: "from-cyan-500 to-cyan-700",
     logo: ggdealsLogo,
   },
