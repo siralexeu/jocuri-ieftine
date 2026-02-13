@@ -71,13 +71,6 @@ const stores: StoreLink[] = [
     logo: ggdealsLogo,
   },
   {
-    name: "r/GameDeals",
-    url: "https://rgamedeals.net/",
-    description: "Community-driven game deals",
-    color: "from-orange-500 to-orange-700",
-    logo: rgamedealsLogo,
-  },
-  {
     name: "Loaded",
     url: "https://www.loaded.com/",
     description: "Digital game marketplace",
@@ -153,6 +146,13 @@ const stores: StoreLink[] = [
     description: "Game keys marketplace",
     color: "from-fuchsia-500 to-fuchsia-700",
     logo: wyrelLogo,
+  },
+  {
+    name: "r/GameDeals",
+    url: "https://rgamedeals.net/",
+    description: "Community-driven game deals",
+    color: "from-orange-500 to-orange-700",
+    logo: rgamedealsLogo,
   },
 ];
 
