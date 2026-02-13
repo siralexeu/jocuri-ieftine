@@ -38,7 +38,7 @@ const stores: StoreLink[] = [
   {
     name: "Instant Gaming",
     url: "https://www.instant-gaming.com/",
-    description: "Official game keys & great deals",
+    description: "Official game keys & great deals, TLOU Part II Remastered",
     color: "from-emerald-500 to-emerald-700",
     logo: instantGamingLogo,
   },
